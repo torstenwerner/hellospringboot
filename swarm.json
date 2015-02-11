@@ -1,0 +1,18 @@
+{
+  "app_name": "hellospringboot",
+  "services": [
+    {
+      "service_name": "hellospringboot",
+      "components": [
+        {
+          "component_name": "hellospringboot",
+          "image": "registry.giantswarm.io/$username/hellospringboot",
+          "ports": [8080],
+          "domains": {
+            "hellospringboot-$username.gigantic.io": 8080
+          }
+        }
+      ]
+    }
+  ]
+}
