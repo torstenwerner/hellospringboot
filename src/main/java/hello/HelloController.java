@@ -13,6 +13,7 @@ public class HelloController {
     @RequestMapping("/")
     @ResponseBody
     public String hello() {
-        return "Hello from Spring Boot! Request number: " + requestNumber.getAndIncrement();
+        return "Hello from Spring Boot! Request number: " + requestNumber.getAndIncrement() +
+                ". Source code is available at https://github.com/torstenwerner/hellospringboot .";
     }
 }
