@@ -1,1 +1,2 @@
-This is a sample spring boot application that can be easily deployed at http://giantswarm.io. It should be available at http://hellospringboot-torstenwerner.gigantic.io.
+This is a sample spring boot application that can be easily deployed at https://giantswarm.io. It should be available at
+http://hellospringboot-torstenwerner.gigantic.io.
